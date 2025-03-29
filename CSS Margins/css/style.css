@@ -1,0 +1,8 @@
+.margin{
+   height: 500px;
+   width: 500px;
+   background-color: red;
+   border: 1px solid black;
+   /* margin: 50px 20px 100px 500px; */
+   margin: auto;
+}
