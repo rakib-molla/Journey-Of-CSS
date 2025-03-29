@@ -1,0 +1,11 @@
+.p1{
+   border-width: 10px;
+   border-color: blue;
+   border-style: groove;
+}
+
+.p2{
+   border: 1px solid black;
+   border-bottom: 5px solid rgb(0, 0, 0);
+   border-radius: 10px;
+}
