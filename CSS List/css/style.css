@@ -1,0 +1,5 @@
+ul{
+   list-style-type: decimal-leading-zero;
+   list-style-position: inside;
+   /* list-style: decimal-leading-zero inside url('image'); */
+}
