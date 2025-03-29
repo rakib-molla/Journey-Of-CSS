@@ -1,0 +1,7 @@
+h1{
+   outline-width: 5px;
+   outline-color: green;
+   outline-style: solid;
+   outline-offset: 10px;
+   margin: 50px;
+}
