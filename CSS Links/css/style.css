@@ -1,0 +1,30 @@
+main{
+   margin: 40px;
+}
+
+a{
+   text-decoration: none;
+   color: teal;
+   background-color: white;
+   border: 1px solid black;
+   padding: 10px;
+   border-radius: 20px 20px 20px 0px;
+}
+
+a:hover{
+   background-color: teal;
+   color: white;
+   border: none;
+   transition: all;
+   transition-duration: 2s;
+}
+
+a:active{
+   background-color: red;
+   color: blue;
+}
+
+a:visited{
+   background-color: black;
+   color: white;
+}
