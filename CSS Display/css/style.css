@@ -1,0 +1,16 @@
+
+/* inline-block margin default include  padding height and width working */
+
+/* inline element height width not working also not have default margin */
+
+h1{
+   border: 1px solid black;
+   text-align: center;
+   display: inline;
+}
+
+span{
+   text-align: center;
+   display: inline-block;
+   border: 1px solid ;
+}
