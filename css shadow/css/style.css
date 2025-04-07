@@ -1,0 +1,13 @@
+h1{
+   text-align: center;
+   font-size: 6vw;
+   /* text-shadow: x y blur color; */
+   text-shadow: -5px 5px 5px black;
+}
+
+.box{
+   height: 300px;
+   width: 300px;
+   border: 1px solid black;
+   box-shadow: 05px 05px 5px rgb(200, 0, 0);
+}
