@@ -1,0 +1,19 @@
+.sprite-image{
+   height: 35px;
+   width: 35px;
+   background-image: url('../images/social.png');
+   background-repeat: no-repeat;
+   background-position: -5px -46px;
+   border-radius: 50%;
+   transition: 1s;
+}
+
+.sprite-image:hover{
+   height: 35px;
+   width: 35px;
+   background-image: url('../images/social.png');
+   background-repeat: no-repeat;
+   background-position: -5px -83px;
+   border-radius: 50%;
+   cursor: pointer;
+}
