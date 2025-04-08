@@ -1,0 +1,77 @@
+.box{
+   height: 200px;
+   width: 200px;
+   background-color: teal;
+   position: relative;
+   animation-name: square;
+   animation-duration: 4s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+   animation-direction:  alternate;
+   animation-fill-mode: both;
+}
+
+
+@keyframes square {
+   0%{
+      background-color: teal;
+      left: 0px;
+   }
+   25%{
+      background-color: green;
+      left: 200px;
+   }
+   50%{
+      background-color: red;
+      left: 400px;
+      border-radius: 50%;
+   }
+   100%{
+      background-color: teal;
+      left: 0px;
+   }
+}
+
+
+.box2{
+   height: 200px;
+   width: 200px;
+   border: 5px solid salmon;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   animation-name: box2;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+
+}
+
+@keyframes box2 {
+   0%{
+      border: 5px solid salmon;
+      transform: scale(1);
+   }  
+   25%{
+      border: 5px solid rgb(92, 167, 6);
+      transform: scale(1.2);
+   }  
+   50%{
+      border: 5px solid rgb(8, 35, 154);
+      transform: scale(1.5);
+      rotate: 200deg;
+   }  
+   75%{
+      border: 5px solid rgb(215, 13, 138);
+      transform: scale(2);
+   }  
+   100%{
+      border: 5px solid salmon;
+      transform: scale(1);
+   }  
+}
+
+.circle{
+   height: 100px;
+   width: 100px;
+   border: 5px solid rgb(150, 227, 8);
+}
