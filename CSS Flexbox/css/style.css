@@ -1,0 +1,10 @@
+.flexbox{
+   display: flex;
+   gap: 10px;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.flexbox >div{
+   background-color: red;
+}
