@@ -12,6 +12,7 @@ header{
    color: white;
    display: flex;
    padding: 10px;
+   justify-content: space-between;
 }
 
 .logo h1{
@@ -59,3 +60,39 @@ header{
    display: block;
 }
 /* header end  */
+
+/* footer start  */
+footer{
+   position: absolute;
+   bottom: 0;
+   text-align: center;
+   background-color: rgba(0, 0, 0, 0.781);
+   width: 100%;
+   color: white;
+   padding-top: 20px;
+}
+
+.footer-heading h1{
+   font-size: 5vw;
+   text-transform: uppercase;
+}
+
+.paragraph-text{
+   width: 60%;
+   margin: 10px auto;
+   text-align: center;
+   font-size: 22px;
+}
+
+.social-icon{
+   font-size: 36px;
+   margin: 10px;
+   cursor: pointer;
+}
+
+.copyright-text{
+   background-color: black;
+   padding: 10px;
+   font-size: 20px;
+}
+/* footer end */
