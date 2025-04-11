@@ -5,6 +5,7 @@
    font-family: 'Lucida Sans';
 }
 
+/* header start  */
 header{
    width: 100%;
    background-color: black;
@@ -57,3 +58,4 @@ header{
 .navbar ul li:hover > ul{
    display: block;
 }
+/* header end  */
