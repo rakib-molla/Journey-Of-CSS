@@ -1,0 +1,59 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Lucida Sans';
+}
+
+header{
+   width: 100%;
+   background-color: black;
+   color: white;
+   display: flex;
+   padding: 10px;
+}
+
+.logo h1{
+   font-size: 36px;
+}
+
+.navbar{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.navbar ul li{
+   width: 170px;
+   background-color: teal;
+   height: 50px;
+   float: left;
+   border: 1px solid white;
+   text-align: center;
+   line-height: 50px;
+   list-style: none;
+   font-size: 20px;
+   text-transform: uppercase;
+   position: relative;
+   transition: all ease-in 1s;
+}
+
+.navbar ul li a{
+   text-decoration: none;
+   color: white;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+
+.navbar ul li:hover{
+   background-color: crimson;
+}
+
+.navbar ul li ul{
+   display: none;
+}
+
+.navbar ul li:hover > ul{
+   display: block;
+}
