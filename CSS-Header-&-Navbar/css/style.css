@@ -61,6 +61,47 @@ header{
 }
 /* header end  */
 
+/* form start */
+.form-1{
+   padding: 5px 80px;
+   background-color: teal;
+   width: fit-content;
+   height: fit-content;
+   color: white;
+   margin: 5px auto;
+   font-size: 26px;
+   box-shadow: 0px 5px 8px rgb(139, 132, 132) ;
+   border-radius: 10px;
+   overflow: hidden;
+}
+
+.form-1 input{
+   padding: 20px 50px;
+   font-size: 20px;
+   text-transform: uppercase;
+   border-radius: 50px;
+   border: 0px;
+}
+
+.reset-btn:hover{
+   background-color: crimson;
+   transition: all 1s ease-in;
+   cursor: pointer;
+   color: white;
+}
+.submit-btn:hover{
+   background-color: rgb(73, 220, 20);
+   transition: all 1s ease-in;
+   cursor: pointer;
+   color: white;
+}
+
+
+/* form end */
+
+
+
+
 /* footer start  */
 footer{
    position: absolute;
@@ -73,7 +114,7 @@ footer{
 }
 
 .footer-heading h1{
-   font-size: 5vw;
+   font-size: 2.5vw;
    text-transform: uppercase;
 }
 
@@ -81,7 +122,7 @@ footer{
    width: 60%;
    margin: 10px auto;
    text-align: center;
-   font-size: 22px;
+   font-size: 18px;
 }
 
 .social-icon{
@@ -93,6 +134,6 @@ footer{
 .copyright-text{
    background-color: black;
    padding: 10px;
-   font-size: 20px;
+   font-size: 16px;
 }
 /* footer end */
