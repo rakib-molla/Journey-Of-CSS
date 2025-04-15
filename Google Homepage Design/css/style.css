@@ -1,0 +1,125 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+   min-height: 40vh;
+}
+
+section header{
+   position: absolute;
+   top: 0;
+   width: 100%;
+   display: flex;
+   justify-content: flex-end;
+   padding: 20px;
+}
+
+section header ul{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   /* gap: 20px; */
+}
+
+section header ul li{
+   list-style: none;
+   margin-left: 20px;
+}
+
+section header ul li a{
+   text-decoration: none;
+   font-size: 14px;
+}
+
+section header ul li button{
+   background-color: #4285F4;
+   border: none;
+   outline: none;
+   padding: 8px 14px;
+   color: #fff;
+   border-radius: 5px;
+   font-size: 14px;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+.main{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.main .searchbox{
+   position: relative;
+   width: 50%;
+   margin-top: 20px;
+}
+
+.main .searchbox .search{
+   width: 100%;
+   padding: 13px;
+   padding-left: 45px;
+   padding-right: 68px;
+   border-radius: 38px;
+   border: 1px solid black;
+   outline: none;
+   font-size: 16px;
+}
+
+.main .searchbox .icons{
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   top: -45px;
+   padding: 12px 20px;
+   pointer-events: none;
+}
+
+.main .buttons button{
+   margin: 0px 5px;
+   padding: 12px 22px;
+   color: gray;
+   font-size: 14px;
+   cursor: pointer;
+   border: 1px solid transparent;
+   outline: none;
+}
+
+.main .buttons button:hover{
+   border: 1px solid gainsboro;
+}
+
+.lang{
+   margin: 20px;
+}
+
+.footer .row{
+   display: flex;
+   bottom: 0;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px;
+}
+
+.footer .row ul li{
+   float: left;
+   margin-left: 10px;
+   list-style: none;
+}
+
+.footer .row ul li a{
+   text-decoration: none;
+   color: black;
+   font-size: 12px;
+}
