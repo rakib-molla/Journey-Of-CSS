@@ -106,6 +106,7 @@ section header ul li button{
 
 .footer .row{
    display: flex;
+   flex-wrap: wrap;
    bottom: 0;
    align-items: center;
    justify-content: space-between;
@@ -122,4 +123,56 @@ section header ul li button{
    text-decoration: none;
    color: black;
    font-size: 12px;
+}
+
+
+/* mobile view  */
+@media(max-width:768px){
+   .main .google{
+      height: 20vw;
+      width: 50vw;
+   }
+
+   .main .searchbox .search{
+      width: 100%;
+      padding: 13px;
+      border-radius: 38px;
+      outline: none;
+      font-size: 16px;
+      
+   }
+
+   .main .buttons{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+   }
+
+   .footer .row{
+      display: flex;
+      flex-wrap: wrap;
+      bottom: 0;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5px;
+      width: 100vw;
+   }
+}
+
+
+/* tablet view  */
+@media (min-width: 769px) and (max-width: 1023px){
+   .signin{
+      background-color: teal;
+   }
+}
+
+
+/* desktop view  */
+@media (min-width: 1024px){
+   .signin{
+      background-color: red;
+   }
 }
